@@ -55,7 +55,10 @@ export default function Navbar() {
             <div className="flex shrink-0 items-center">
               <p>WeExist</p>
             </div>
-            <div className="hidden sm:ml-6 sm:block">
+            <div
+              className="hidden sm:ml-6 sm:block"
+              style={{ marginLeft: "auto" }}
+            >
               <div className="flex space-x-4">
                 <a
                   href="#"
